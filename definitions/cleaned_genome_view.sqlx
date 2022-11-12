@@ -2,7 +2,7 @@ config {
     type: "table",
     dependencies: ["genome_assertions"],
     schema: "genome",
-    tags: ["genome"],
+    tags: ["clean_genome"],
     description: "Clean genome data",
     columns: {
         Individual_ID: `A unique identifier for the person`,
