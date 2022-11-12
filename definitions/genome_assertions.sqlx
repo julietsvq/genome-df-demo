@@ -1,6 +1,6 @@
 config { 
   type: "assertion",
-  tags: ["basic_genome", "clean_genome"] }
+  tags: ["basic_genome"] }
 
 SELECT
   *
