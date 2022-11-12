@@ -1,8 +1,8 @@
 config {
  type: "view",
- schema: "basic_genome",
+ schema: "genome",
  description: "Genome public dataset",
- tags: ["genome"]
+ tags: ["basic_genome"]
 }
 select
 *
