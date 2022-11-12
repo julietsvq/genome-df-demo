@@ -1,0 +1,8 @@
+config { type: "assertion" }
+
+SELECT
+  *
+FROM
+  ${ref("genome_view")}
+WHERE
+  Siblings != "0"

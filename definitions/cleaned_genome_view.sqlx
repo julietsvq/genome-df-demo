@@ -1,0 +1,21 @@
+config {
+    type: "table",
+    dependencies: ["genome_assertions"],
+    schema: "genome",
+    tags: ["genome"],
+    description: "Clean genome data",
+    columns: {
+        Individual_ID: `A unique identifier for the person`,
+        Phenotype: `The person's phenotype`,
+        Paternal_ID: `The person's father's ID`,
+        Maternal_ID: `The person's mother's ID`,
+    }
+}
+ 
+select
+    Individual_ID,
+    Phenotype, 
+    Paternal_ID, 
+    Maternal_ID
+from
+${ref("genome_view")}
