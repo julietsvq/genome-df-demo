@@ -1,0 +1,12 @@
+config {
+ type: "view",
+ schema: "genome",
+ description: "Cleaned version of genome public dataset",
+ tags: ["genome"]
+}
+select
+*
+from
+${ref("1000_genomes_pedigree")}
+where 
+gender = 1

@@ -1,0 +1,6 @@
+config {
+ type: "declaration",
+ database: "bigquery-public-data",
+ schema: "human_genome_variants",
+ name: "1000_genomes_pedigree"
+}
